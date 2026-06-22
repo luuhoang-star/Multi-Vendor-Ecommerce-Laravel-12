@@ -11,6 +11,8 @@ use App\Http\Controllers\Admin\Auth\RegisteredUserController;
 use App\Http\Controllers\Admin\Auth\VerifyEmailController;
 use App\Http\Controllers\Admin\KycRequestController;
 use App\Http\Controllers\Admin\ProfileController;
+use App\Http\Controllers\Admin\RoleController;
+use App\Http\Controllers\Admin\UserRoleController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('guest:admin') // Dùng middleware guest với guard admin
@@ -66,10 +68,15 @@ Route::put('/profile', [ProfileController::class, 'profileUpdate'])->name('profi
 Route::put('/profile/password', [ProfileController::class, 'passwordUpdate'])->name('profile.password.update');    
 
 Route::get('/kyc-requests', [KycRequestController::class, 'index'])->name('kyc.index');
+Route::get('/kyc-requests/pending', [KycRequestController::class, 'pending'])->name('kyc.pending');
+Route::get('/kyc-requests/rejected', [KycRequestController::class, 'rejected'])->name('kyc.rejected');
 Route::get('/kyc-requests/{kyc_request}', [KycRequestController::class, 'show'])->name('kyc.show');
 Route::get('/kyc-requests/download/{kyc_request}', [KycRequestController::class, 'download'])->name('kyc.download');
 Route::put('/kyc-requests/{kyc_request}/status', [KycRequestController::class, 'update'])->name('kyc.update');
 
+ /** Role Routes */
+ Route::resource('/role', RoleController::class);
+  Route::resource('/role-users', UserRoleController::class);
 });
 
 

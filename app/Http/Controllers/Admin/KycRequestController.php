@@ -9,15 +9,40 @@ use App\Services\MailService;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\Middleware;
 use Illuminate\Support\Facades\Storage;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 
 class KycRequestController extends Controller
+
 {
+
+    static function Middleware(): array
+    {
+        return [
+            new Middleware('permission:KYC Management')
+        ];
+    }
     function index(): View
     {
 
         $kycRequests = Kyc::paginate(25);
+        return view('admin.kyc.index', compact('kycRequests'));
+    }
+    public function pending(): View
+    {
+        $kycRequests = Kyc::where('status', 'pending')
+            ->paginate(25);
+
+        return view('admin.kyc.index', compact('kycRequests'));
+    }
+
+
+    public function rejected(): View
+    {
+        $kycRequests = Kyc::where('status', 'rejected')
+            ->paginate(25);
+
         return view('admin.kyc.index', compact('kycRequests'));
     }
 
@@ -41,7 +66,7 @@ class KycRequestController extends Controller
                 subject: 'KYC Application Has Been Approved',
                 body: 'Congratulations! Your KYC Application Has Been Approved.'
             );
-        } elseif  ($kyc_request->status == 'rejected') {
+        } elseif ($kyc_request->status == 'rejected') {
             MailService::send(
                 to: $kyc_request->user->email,
                 subject: 'KYC Application Has Been Rejected',

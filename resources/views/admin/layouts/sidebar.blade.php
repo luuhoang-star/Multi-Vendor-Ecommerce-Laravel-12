@@ -229,31 +229,69 @@
                      </a>
                  </li>
 
-                 <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown"
-                         data-bs-auto-close="false" role="button" aria-expanded="false">
-                         <span
-                             class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler.io/icons/icon/package -->
+                 @if (hasPermission(['KYC Management']))
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown"
+                             data-bs-auto-close="false" role="button" aria-expanded="false">
+                             <span
+                                 class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler.io/icons/icon/package -->
 
-                             <span class="nav-link-title"> KYC Requests</span>
-                     </a>
-                     <div class="dropdown-menu">
-                         <div class="dropdown-menu-columns">
-                             <div class="dropdown-menu-column">
-                                 <a class="dropdown-item" href="{{ route('admin.kyc.index') }}">
-                                     All Requests
-                                 </a>
-
-
-
-
+                                 <span class="nav-link-title"> KYC Requests</span>
+                         </a>
+                         <div class="dropdown-menu">
+                             <div class="dropdown-menu-columns">
+                                 <div class="dropdown-menu-column">
+                                     <a class="dropdown-item" href="{{ route('admin.kyc.index') }}">
+                                         All Requests
+                                     </a>
+                                     <a class="dropdown-item" href="{{ route('admin.kyc.pending') }}">
+                                         Pending Requests
+                                     </a>
+                                     <a class="dropdown-item" href="{{ route('admin.kyc.rejected') }}">
+                                         Rejected Requests
+                                     </a>
+                                 </div>
 
                              </div>
-
                          </div>
-                     </div>
-                 </li>
+                     </li>
+                 @endif
 
+                 @if (hasPermission(['Role Management', 'Role User Management']))
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown"
+                             data-bs-auto-close="false" role="button" aria-expanded="false">
+                             <span
+                                 class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler.io/icons/icon/package -->
+
+                                 <span class="nav-link-title">Quản lý quyền truy cập</span>
+                         </a>
+                         <div class="dropdown-menu">
+                             <div class="dropdown-menu-columns">
+                                @if(hasPermission(['Role Management']))
+                                 <div class="dropdown-menu-column">
+                                     <a class="dropdown-item" href="{{ route('admin.role.index') }}">
+                                         Vai trò
+                                     </a>
+
+                                 </div>
+                                 @endif
+
+                                   @if(hasPermission(['Role User Management']))
+
+                                 <div class="dropdown-menu-column">
+                                     <a class="dropdown-item" href="{{ route('admin.role-users.index') }}">
+                                         Admin phụ
+                                     </a>
+
+                                 </div>
+
+                                 @endif
+
+                             </div>
+                         </div>
+                     </li>
+                 @endif
                  {{-- <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown"
                          data-bs-auto-close="false" role="button" aria-expanded="false">
