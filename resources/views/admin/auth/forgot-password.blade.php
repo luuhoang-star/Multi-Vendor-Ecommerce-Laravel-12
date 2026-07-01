@@ -40,7 +40,7 @@
             </div>
             <div class="card card-md">
                 <div class="card-body">
-                    <p>{{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
+                    <p>{{ __('Quên mật khẩu? Không sao cả. Hãy nhập địa chỉ email của bạn, chúng tôi sẽ gửi cho bạn một liên kết đặt lại mật khẩu qua email để bạn có thể chọn mật khẩu mới.') }}
                     </p>
 
 

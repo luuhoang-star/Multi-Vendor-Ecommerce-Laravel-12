@@ -8,10 +8,10 @@
                    <div class="col-xxl-3 col-xl-4 col-lg-7">
                        <div class="header-info">
                            <ul>
-                               <li><a href="#">About Us</a></li>
-                               <li><a href="#">My Account</a></li>
-                               <li><a href="#">Wishlist</a></li>
-                               <li><a href="#">Order Tracking</a></li>
+                               <li><a href="#">Giới thiệu về chúng tôi</a></li>
+                               <li><a href="#">Tài khoản của tôi</a></li>
+                               <li><a href="#">Danh sách yêu thích</a></li>
+                               <li><a href="#">Theo dõi đơn hàng</a></li>
                            </ul>
                        </div>
                    </div>
@@ -46,16 +46,16 @@
                        <div class="search-style-2">
                            <form action="#">
                                <select class="select-active">
-                                   <option>All Categories</option>
-                                   <option>Laptops & Computers</option>
-                                   <option>Smart Home Devices</option>
-                                   <option>Wearable Technology</option>
-                                   <option>Cameras & Drones</option>
-                                   <option>Men's Clothing</option>
-                                   <option>Women's Clothing</option>
-                                   <option>Shoes & Footwear</option>
-                                   <option>Bags & Accessories</option>
-                                   <option>Jewelry & Watches</option>
+                                   <option>Tất cả danh mục</option>
+                                   <option>Laptops & máy tính</option>
+                                   <option>Thiết bị nhà thông minh</option>
+                                   <option>Công nghệ đeo trên người</option>
+                                   <option>Máy ảnh & Fly cam</option>
+                                   <option>Quần áo nam</option>
+                                   <option>Quần áo nữ</option>
+                                   <option>Giày & Dép</option>
+                                   <option>Túi xách & Phụ kiện</option>
+                                   <option>Trang sức & Đồng hồ</option>
                                </select>
                                <input type="text" placeholder="Search for items..." />
                            </form>
@@ -68,7 +68,7 @@
                                            src="{{ asset('assets/frontend/dist/imgs/theme/icons/icon-compare.svg') }}" />
                                        <span class="pro-count blue">3</span>
                                    </a>
-                                   <a href="#"><span class="lable ml-0">Compare</span></a>
+                                   <a href="#"><span class="lable ml-0">So sánh</span></a>
                                </div>
                                <div class="header-action-icon-2">
                                    <a href="#">
@@ -76,7 +76,7 @@
                                            src="{{ asset('assets/frontend/dist/imgs/theme/icons/icon-heart.svg') }}" />
                                        <span class="pro-count blue">6</span>
                                    </a>
-                                   <a href="#"><span class="lable">Wishlist</span></a>
+                                   <a href="#"><span class="lable">Danh sách yêu thích</span></a>
                                </div>
                                <div class="header-action-icon-2">
                                    <a class="mini-cart-icon" href="#">
@@ -84,7 +84,7 @@
                                            src="{{ asset('assets/frontend/dist/imgs/theme/icons/icon-cart.svg') }}" />
                                        <span class="pro-count blue">2</span>
                                    </a>
-                                   <a href="#"><span class="lable">Cart</span></a>
+                                   <a href="#"><span class="lable">Giỏ hàng</span></a>
                                    <div class="cart-dropdown-wrap cart-dropdown-hm2">
                                        <ul>
                                            <li>
@@ -93,7 +93,7 @@
                                                            src="{{ asset('assets/frontend/dist/imgs/shop/thumbnail-3.jpg') }}" /></a>
                                                </div>
                                                <div class="shopping-cart-title">
-                                                   <h4><a href="#">Daisy Casual Bag</a></h4>
+                                                   <h4><a href="#">Túi Daisy phong cách thường ngày</a></h4>
                                                    <h4><span>1 × </span>$800.00</h4>
                                                </div>
                                                <div class="shopping-cart-delete">
@@ -106,7 +106,7 @@
                                                            src="{{ asset('assets/frontend/dist/imgs/shop/thumbnail-2.jpg') }}" /></a>
                                                </div>
                                                <div class="shopping-cart-title">
-                                                   <h4><a href="#">Corduroy Shirts</a></h4>
+                                                   <h4><a href="#">Áo sơ mi Corduroy</a></h4>
                                                    <h4><span>1 × </span>$3200.00</h4>
                                                </div>
                                                <div class="shopping-cart-delete">
@@ -119,8 +119,8 @@
                                                <h4>Total <span>$4000.00</span></h4>
                                            </div>
                                            <div class="shopping-cart-button">
-                                               <a href="shop-cart.html" class="outline">View cart</a>
-                                               <a href="shop-checkout.html">Checkout</a>
+                                               <a href="shop-cart.html" class="outline">Xem giỏ hàng</a>
+                                               <a href="shop-checkout.html">Thanh toán</a>
                                            </div>
                                        </div>
                                    </div>
@@ -130,32 +130,27 @@
                                        <img class="svgInject" alt="ShopX"
                                            src="{{ asset('assets/frontend/dist/imgs/theme/icons/icon-user.svg') }}" />
                                    </a>
-                                   <a href="{{ route('login') }}"><span class="lable ml-0">Account</span></a>
+                                   <a href="{{ route('login') }}"><span class="lable ml-0">Tài khoản</span></a>
                                    <div class="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
                                        <ul>
                                            <li>
-                                               <a href="#"><i class="fi fi-rs-user mr-10"></i>My
-                                                   Account</a>
+                                               <a href="#"><i class="fi fi-rs-user mr-10"></i>Tài khoản của tôi</a>
                                            </li>
                                            <li>
-                                               <a href="#"><i class="fi fi-rs-location-alt mr-10"></i>Order
-                                                   Tracking</a>
+                                               <a href="#"><i class="fi fi-rs-location-alt mr-10"></i>Theo dõi đơn hàng</a>
                                            </li>
                                            <li>
-                                               <a href="#"><i class="fi fi-rs-label mr-10"></i>My
-                                                   Voucher</a>
+                                               <a href="#"><i class="fi fi-rs-label mr-10"></i>Phiếu giảm giá của tôi</a>
                                            </li>
                                            <li>
-                                               <a href="#"><i class="fi fi-rs-heart mr-10"></i>My
-                                                   Wishlist</a>
+                                               <a href="#"><i class="fi fi-rs-heart mr-10"></i>Danh sách yêu thích của tôi</a>
                                            </li>
                                            <li>
                                                <a href="#"><i
-                                                       class="fi fi-rs-settings-sliders mr-10"></i>Setting</a>
+                                                       class="fi fi-rs-settings-sliders mr-10"></i>Cài đặt</a>
                                            </li>
                                            <li>
-                                               <a href="#"><i class="fi fi-rs-sign-out mr-10"></i>Sign
-                                                   out</a>
+                                               <a href="#"><i class="fi fi-rs-sign-out mr-10"></i>Đăng xuất</a>
                                            </li>
                                        </ul>
                                    </div>

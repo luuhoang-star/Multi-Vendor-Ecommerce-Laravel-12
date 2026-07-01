@@ -14,6 +14,9 @@
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link rel="stylesheet" href="{{ asset('assets/global/upload-preview/upload-preview.css') }}" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.34.0/dist/tabler-icons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nestable2/1.6.0/jquery.nestable.min.css">
+
 
     <link href="{{ asset('assets/admin/dist/css/tabler.css') }}" rel="stylesheet" />
     <!-- END GLOBAL MANDATORY STYLES -->
@@ -49,9 +52,8 @@
                         <div class="col-12 col-lg-auto mt-3 mt-lg-0">
                             <ul class="list-inline list-inline-dots mb-0">
                                 <li class="list-inline-item">
-                                    Copyright &copy; 2025
-                                    <a href="." class="link-secondary">Tiktok:hoangthienthan</a>. All rights
-                                    reserved.
+                                    Bản quyền &copy; 2026
+                                    <a href="." class="link-secondary">Tiktok:madebyhoang</a>. Đã đăng ký bản quyền.
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="javascript:void(0)" class="link-secondary" rel="noopener"> v1.0.0 </a>
@@ -70,9 +72,12 @@
     <script src="{{ asset('assets/global/upload-preview/upload-preview.js') }}"></script>
     <script src="{{ asset('assets/admin/dist/js/tinymce/tinymce.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nestable2/1.6.0/jquery.nestable.min.js"></script>
     <script src="{{ asset('assets/admin/dist/js/tabler.min.js') }}"></script>
     @include('admin.layouts.scripts')
     @stack('scripts')
+
 
 
 

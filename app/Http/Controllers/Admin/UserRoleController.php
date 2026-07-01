@@ -53,7 +53,7 @@ static function Middleware(): array {
         $role = Role::findOrFail($request->role);
 
         if($role->name == 'Super Admin') {
-            AlertService::error('You can not create Super Admin user.');
+            AlertService::error('Bạn không thể tạo người dùng Super Admin.');
             return to_route('admin.role-users.index');
         }
         $admin = new Admin();
@@ -90,7 +90,7 @@ static function Middleware(): array {
     public function update(Request $request, Admin $role_user)
     {
     if ($role_user->hasRole('Super Admin')) {
-        AlertService::error('You can not update Super Admin user');
+        AlertService::error('Bạn không thể cập nhật người dùng Super Admin');
         return to_route('admin.role-users.index');
     }
             $request->validate([
@@ -100,7 +100,7 @@ static function Middleware(): array {
 
         $role = Role::findOrFail($request->role);
            if($role->name == 'Super Admin') {
-            AlertService::error('You can not create Super Admin user.');
+            AlertService::error('Bạn không thể tạo người dùng Super Admin.');
             return to_route('admin.role-users.index');
         }
         
@@ -128,7 +128,8 @@ static function Middleware(): array {
     public function destroy(Admin $role_user): JsonResponse
     {
             if ($role_user->hasRole('Super Admin')) {
-            return response()->json(['status' => 'error', 'message' => 'You can not delete Super Admin user.']);
+            AlertService::error('Bạn không thể xóa người dùng Super Admin.');
+            return to_route('admin.role-users.index');
         }
         try {
             foreach($role_user->getRoleNames() as $role) {
@@ -138,7 +139,7 @@ static function Middleware(): array {
 
             AlertService::deleted();
 
-            return response()->json(['status' => 'success', 'message' => 'Deleted Successfully']);
+            return response()->json(['status' => 'success', 'message' => 'Đã xóa người dùng thành công.']);
         } catch (\Throwable $th) {
             Log::error('Role Delete Error: ', $th);
             return response()->json(['status' => 'error', 'message' => $th->getMessage()]);

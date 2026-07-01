@@ -63,14 +63,14 @@ class KycRequestController extends Controller
         if ($kyc_request->status == 'approved') {
             MailService::send(
                 to: $kyc_request->user->email,
-                subject: 'KYC Application Has Been Approved',
-                body: 'Congratulations! Your KYC Application Has Been Approved.'
+                subject: 'Hồ sơ xác minh KYC đã được duyệt',
+                body: 'Chúc mừng! Hồ sơ KYC của bạn đã được phê duyệt.'
             );
         } elseif ($kyc_request->status == 'rejected') {
             MailService::send(
                 to: $kyc_request->user->email,
-                subject: 'KYC Application Has Been Rejected',
-                body: 'Sorry! Your KYC Application Has Been Rejected.'
+                subject: 'Hồ sơ xác minh KYC đã bị từ chối',
+                body: 'Xin lỗi! Hồ sơ KYC của bạn đã bị từ chối.'
             );
         }
 

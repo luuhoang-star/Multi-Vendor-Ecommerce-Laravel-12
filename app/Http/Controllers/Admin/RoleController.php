@@ -80,7 +80,7 @@ class RoleController extends Controller implements HasMiddleware
     public function update(Request $request, Role $role)
     {
         if($role->name == 'Super Admin') {
-            AlertService::error('You can not update Super Admin role.');
+            AlertService::error('Bạn không thể thay đổi quyền của Super Admin.');
             return to_route('admin.role.index');
         }
 
@@ -103,7 +103,8 @@ class RoleController extends Controller implements HasMiddleware
     public function destroy(Role $role)
     {
         if ($role->name == 'Super Admin') {
-            return response()->json(['status' => 'error', 'message' => 'You can not delete Super Admin role.']);
+            AlertService::error('Bạn không thể xóa vai trò Super Admin.');
+            return to_route('admin.role.index');
         }
         try {
             DB::beginTransaction();
@@ -115,11 +116,11 @@ class RoleController extends Controller implements HasMiddleware
             DB::commit();
             AlertService::deleted();
 
-            return response()->json(['status' => 'success', 'message' => 'Deleted Successfully']); // ✅ Thêm (
+            return response()->json(['status' => 'success', 'message' => 'Đã xóa vai trò thành công']); // ✅ Thêm (
 
         } catch (\Throwable $th) {
             DB::rollBack();
-            Log::error('Role Delete Error: ', [$th]); // ✅ Log cần array
+            Log::error('Xóa vai trò thất bại: ', [$th]); // ✅ Log cần array
 
             return response()->json(['status' => 'error', 'message' => $th->getMessage()], 500);
         }

@@ -6,7 +6,7 @@
         <div class="card">
 
             <div class="card-header">
-                <h3 class="card-title">Update Role</h3>
+                <h3 class="card-title">Cập nhật vai trò</h3>
 
                 <div class="card-actions">
                     <a href="{{ route('admin.role.create') }}" class="btn btn-primary">
@@ -32,7 +32,7 @@
                             <div class="mb-3">
 
                                 <label class="form-label required">
-                                    Role Name
+                                    Tên vai trò
                                 </label>
 
 

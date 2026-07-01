@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>ShopX - Multipurpose eCommerce HTML Template</title>
+    <title>ShopX - Mẫu giao diện HTML thương mại điện tử đa mục đích</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -108,7 +108,7 @@
                                     </div>
                                     <div class="product-extra-link2">
                                         <button type="submit" class="button button-add-to-cart"><i
-                                                class="fi-rs-shopping-cart"></i>Add to cart</button>
+                                                class="fi-rs-shopping-cart"></i>Thêm vào giỏ hàng</button>
                                     </div>
                                 </div>
                                 <div class="font-xs">

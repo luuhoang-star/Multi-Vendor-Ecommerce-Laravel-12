@@ -30,7 +30,7 @@
                              <path
                                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
                          </svg>
-                         Source code
+                         Mã nguồn
                      </a>
                      <a href="https://github.com/sponsors/codecalm" class="btn btn-6" target="_blank" rel="noreferrer">
                          <!-- Download SVG icon from http://tabler.io/icons/icon/heart -->
@@ -39,7 +39,7 @@
                              stroke-linejoin="round" class="icon text-pink icon-2">
                              <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
                          </svg>
-                         Sponsor
+                         Nhà tài trợ
                      </a>
                  </div>
              </div>
@@ -82,7 +82,7 @@
                      <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-end dropdown-menu-card">
                          <div class="card">
                              <div class="card-header d-flex">
-                                 <h3 class="card-title">Notifications</h3>
+                                 <h3 class="card-title">Thông báo</h3>
                                  <div class="btn-close ms-auto" data-bs-dismiss="dropdown"></div>
                              </div>
                              <div class="list-group list-group-flush list-group-hoverable">
@@ -91,9 +91,9 @@
                                          <div class="col-auto"><span
                                                  class="status-dot status-dot-animated bg-red d-block"></span></div>
                                          <div class="col text-truncate">
-                                             <a href="#" class="text-body d-block">Example 1</a>
-                                             <div class="d-block text-secondary text-truncate mt-n1">Change deprecated
-                                                 html tags to text decoration classes (#29604)</div>
+                                             <a href="#" class="text-body d-block">Ví dụ 1</a>
+                                             <div class="d-block text-secondary text-truncate mt-n1">Thay thế các thẻ
+                                                 HTML đã lỗi thời bằng các class định dạng văn bản (#29604)</div>
                                          </div>
                                          <div class="col-auto">
                                              <a href="#" class="list-group-item-actions">
@@ -113,9 +113,10 @@
                                      <div class="row align-items-center">
                                          <div class="col-auto"><span class="status-dot d-block"></span></div>
                                          <div class="col text-truncate">
-                                             <a href="#" class="text-body d-block">Example 2</a>
+                                             <a href="#" class="text-body d-block">Ví dụ 2</a>
                                              <div class="d-block text-secondary text-truncate mt-n1">
-                                                 justify-content:between ⇒ justify-content:space-between (#29734)</div>
+                                                 Thay justify-content:between bằng justify-content:space-between
+                                                 (#29734)</div>
                                          </div>
                                          <div class="col-auto">
                                              <a href="#" class="list-group-item-actions show">
@@ -135,8 +136,8 @@
                                      <div class="row align-items-center">
                                          <div class="col-auto"><span class="status-dot d-block"></span></div>
                                          <div class="col text-truncate">
-                                             <a href="#" class="text-body d-block">Example 3</a>
-                                             <div class="d-block text-secondary text-truncate mt-n1">Update
+                                             <a href="#" class="text-body d-block">Ví dụ 3</a>
+                                             <div class="d-block text-secondary text-truncate mt-n1">Cập nhật
                                                  change-version.js (#29736)</div>
                                          </div>
                                          <div class="col-auto">
@@ -158,8 +159,8 @@
                                          <div class="col-auto"><span
                                                  class="status-dot status-dot-animated bg-green d-block"></span></div>
                                          <div class="col text-truncate">
-                                             <a href="#" class="text-body d-block">Example 4</a>
-                                             <div class="d-block text-secondary text-truncate mt-n1">Regenerate
+                                             <a href="#" class="text-body d-block">Ví dụ 4</a>
+                                             <div class="d-block text-secondary text-truncate mt-n1">Tạo lại file
                                                  package-lock.json (#29730)</div>
                                          </div>
                                          <div class="col-auto">
@@ -180,10 +181,10 @@
                              <div class="card-body">
                                  <div class="row">
                                      <div class="col">
-                                         <a href="#" class="btn btn-2 w-100"> Archive all </a>
+                                         <a href="#" class="btn btn-2 w-100"> Lưu trữ tất cả</a>
                                      </div>
                                      <div class="col">
-                                         <a href="#" class="btn btn-2 w-100"> Mark all as read </a>
+                                         <a href="#" class="btn btn-2 w-100"> Đánh dấu tất cả là đã đọc </a>
                                      </div>
                                  </div>
                              </div>
@@ -197,17 +198,17 @@
                      aria-label="Open user menu">
                      <span class="avatar avatar-sm" style="background-image: url(./static/avatars/000m.jpg)"> </span>
                      <div class="d-none d-xl-block ps-2">
-                         <div>Paweł Kuna</div>
-                         <div class="mt-1 small text-secondary">UI Designer</div>
+                         <div>Lưu Văn Hoàng</div>
+                         <div class="mt-1 small text-secondary">Nhà thiết kế giao diện người dùng</div>
                      </div>
                  </a>
                  <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                     <a href="#" class="dropdown-item">Status</a>
-                     <a href="#" class="dropdown-item">Profile</a>
-                     <a href="#" class="dropdown-item">Feedback</a>
+                     <a href="#" class="dropdown-item">Trạng thái</a>
+                     <a href="#" class="dropdown-item">Hồ sơ cá nhân</a>
+                     <a href="#" class="dropdown-item">Phản hồi</a>
                      <div class="dropdown-divider"></div>
-                     <a href="./settings.html" class="dropdown-item">Settings</a>
-                     <a href="./sign-in.html" class="dropdown-item">Logout</a>
+                     <a href="./settings.html" class="dropdown-item">Cài đặt</a>
+                     <a href="./sign-in.html" class="dropdown-item">Đăng xuất</a>
                  </div>
              </div>
          </div>
@@ -220,9 +221,37 @@
                              class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler.io/icons/icon/home -->
                              <i class="ti ti-brand-tabler"></i>
                          </span>
-                         <span class="nav-link-title"> Home </span>
+                         <span class="nav-link-title"> Trang chủ </span>
                      </a>
                  </li>
+
+
+                 <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown"
+                         data-bs-auto-close="false" role="button" aria-expanded="false">
+                         <span class="nav-link-icon d-md-none d-lg-inline-block">
+                             <i class="ti ti-shield"></i>
+                         </span>
+                         <span class="nav-link-title">Ecommerce</span>
+                     </a>
+                     <div class="dropdown-menu">
+                         <div class="dropdown-menu-columns">
+                             @if (hasPermission(['Role Management']))
+                                 <div class="dropdown-menu-column">
+                                     <a class="dropdown-item" href="{{ route('admin.categories.index') }}">
+                                         Danh mục
+                                     </a>
+
+                                 </div>
+                             @endif
+
+                         </div>
+                     </div>
+                 </li>
+
+
+
+
 
                  @if (hasPermission(['KYC Management']))
                      <li class="nav-item dropdown">
@@ -230,19 +259,19 @@
                              data-bs-auto-close="false" role="button" aria-expanded="false">
                              <span class="nav-link-icon d-md-none d-lg-inline-block"><i class="ti ti-user-check"></i>
 
-                                 <span class="nav-link-title"> KYC Requests</span>
+                                 <span class="nav-link-title">Danh sách yêu cầu xác minh danh tính người dùng</span>
                          </a>
                          <div class="dropdown-menu">
                              <div class="dropdown-menu-columns">
                                  <div class="dropdown-menu-column">
                                      <a class="dropdown-item" href="{{ route('admin.kyc.index') }}">
-                                         All Requests
+                                         Tất cả các yêu cầu
                                      </a>
                                      <a class="dropdown-item" href="{{ route('admin.kyc.pending') }}">
-                                         Pending Requests
+                                         Yêu cầu đang chờ
                                      </a>
                                      <a class="dropdown-item" href="{{ route('admin.kyc.rejected') }}">
-                                         Rejected Requests
+                                         Yêu cầu bị từ chối
                                      </a>
                                  </div>
 
@@ -288,7 +317,7 @@
                      <a class="nav-link" href="{{ route('admin.settings.index') }}">
                          <span class="nav-link-icon d-md-none d-lg-inline-block"><i class="ti ti-settings"></i>
                          </span>
-                         <span class="nav-link-title"> Settings </span>
+                         <span class="nav-link-title">Cài đặt</span>
                      </a>
                  </li>
                  {{-- <li class="nav-item dropdown">
@@ -386,7 +415,7 @@
                      <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-end dropdown-menu-card">
                          <div class="card">
                              <div class="card-header d-flex">
-                                 <h3 class="card-title">Notifications</h3>
+                                 <h3 class="card-title">Thông báo</h3>
                                  <div class="btn-close ms-auto" data-bs-dismiss="dropdown"></div>
                              </div>
                              <div class="list-group list-group-flush list-group-hoverable">
@@ -395,9 +424,9 @@
                                          <div class="col-auto"><span
                                                  class="status-dot status-dot-animated bg-red d-block"></span></div>
                                          <div class="col text-truncate">
-                                             <a href="#" class="text-body d-block">Example 1</a>
-                                             <div class="d-block text-secondary text-truncate mt-n1">Change deprecated
-                                                 html tags to text decoration classes (#29604)</div>
+                                             <a href="#" class="text-body d-block">Ví dụ 1</a>
+                                             <div class="d-block text-secondary text-truncate mt-n1">Thay thế các thẻ
+                                                 HTML đã lỗi thời bằng các class định dạng chữ (#29604)</div>
                                          </div>
                                          <div class="col-auto">
                                              <a href="#" class="list-group-item-actions">
@@ -418,9 +447,10 @@
                                      <div class="row align-items-center">
                                          <div class="col-auto"><span class="status-dot d-block"></span></div>
                                          <div class="col text-truncate">
-                                             <a href="#" class="text-body d-block">Example 2</a>
+                                             <a href="#" class="text-body d-block">Ví dụ 2</a>
                                              <div class="d-block text-secondary text-truncate mt-n1">
-                                                 justify-content:between ⇒ justify-content:space-between (#29734)</div>
+                                                 Thay justify-content:between bằng justify-content:space-between
+                                                 (#29734)</div>
                                          </div>
                                          <div class="col-auto">
                                              <a href="#" class="list-group-item-actions show">
@@ -441,8 +471,8 @@
                                      <div class="row align-items-center">
                                          <div class="col-auto"><span class="status-dot d-block"></span></div>
                                          <div class="col text-truncate">
-                                             <a href="#" class="text-body d-block">Example 3</a>
-                                             <div class="d-block text-secondary text-truncate mt-n1">Update
+                                             <a href="#" class="text-body d-block">Ví dụ 3</a>
+                                             <div class="d-block text-secondary text-truncate mt-n1">Cập nhật
                                                  change-version.js (#29736)</div>
                                          </div>
                                          <div class="col-auto">
@@ -465,8 +495,8 @@
                                          <div class="col-auto"><span
                                                  class="status-dot status-dot-animated bg-green d-block"></span></div>
                                          <div class="col text-truncate">
-                                             <a href="#" class="text-body d-block">Example 4</a>
-                                             <div class="d-block text-secondary text-truncate mt-n1">Regenerate
+                                             <a href="#" class="text-body d-block">Ví dụ 4</a>
+                                             <div class="d-block text-secondary text-truncate mt-n1">Tạo lại file
                                                  package-lock.json (#29730)</div>
                                          </div>
                                          <div class="col-auto">
@@ -488,10 +518,10 @@
                              <div class="card-body">
                                  <div class="row">
                                      <div class="col">
-                                         <a href="#" class="btn btn-2 w-100"> Archive all </a>
+                                         <a href="#" class="btn btn-2 w-100"> Lưu trữ tất cả </a>
                                      </div>
                                      <div class="col">
-                                         <a href="#" class="btn btn-2 w-100"> Mark all as read </a>
+                                         <a href="#" class="btn btn-2 w-100"> Đánh dấu tất cả là đã đọc </a>
                                      </div>
                                  </div>
                              </div>
@@ -513,11 +543,11 @@
                      </div>
                  </a>
                  <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                     <a href="#" class="dropdown-item">Status</a>
-                     <a href="{{ route('admin.profile.index') }}" class="dropdown-item">Profile</a>
-                     <a href="#" class="dropdown-item">Feedback</a>
+                     <a href="#" class="dropdown-item">Trạng thái</a>
+                     <a href="{{ route('admin.profile.index') }}" class="dropdown-item">Hồ sơ cá nhân</a>
+                     <a href="#" class="dropdown-item">Phản hồi</a>
                      <div class="dropdown-divider"></div>
-                     <a href="./settings.html" class="dropdown-item">Settings</a>
+                     <a href="./settings.html" class="dropdown-item">Cài đặt</a>
                      <a onclick="event.preventDefault();
             $('.logout-form').submit();" href="#"
                          class="dropdown-item">

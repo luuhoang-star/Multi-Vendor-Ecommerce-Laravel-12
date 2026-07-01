@@ -23,37 +23,37 @@
                     <table class="table table-vcenter card-table">
                         <tbody>
                             <tr>
-                                <td>Full Name</td>
+                                <td>Họ và tên</td>
                                 <td>{{ $kyc_request->full_name }}</td>
                             </tr>
 
                             <tr>
-                                <td>Birth Date</td>
+                                <td>Ngày sinh</td>
                                 <td>{{ $kyc_request->date_of_birth }}</td>
                             </tr>
 
                             <tr>
-                                <td>Gender</td>
+                                <td>Giới tính</td>
                                 <td>{{ $kyc_request->gender }}</td>
                             </tr>
 
                             <tr>
-                                <td>Full Ađress</td>
+                                <td>Địa chỉ</td>
                                 <td>{{ $kyc_request->full_address }}</td>
                             </tr>
                             <tr>
-                                <td>Document Type</td>
+                                <td>Loại tài liệu</td>
                                 <td>{{ $kyc_request->document_type }}</td>
                             </tr>
                             <tr>
-                                <td>Document Scan Copy</td>
+                                <td>Bản sao tài liệu đã quét</td>
                                 <td>
                                     <a class="btn btn-primary"
-                                        href="{{ route('admin.kyc.download', $kyc_request) }}">Dowload</a>
+                                        href="{{ route('admin.kyc.download', $kyc_request) }}">Tải xuống</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Status</td>
+                                <td>Trạng thái</td>
                                 <td>
                                     @if ($kyc_request->status == 'pending')
                                 <td class="text-secondary"><span class="badge bg-warning-lt">Đang chờ</span></td>
@@ -77,7 +77,7 @@
                                                 <option value="approved">Được duyệt</option>
                                                 <option value="rejected">Bị từ chối</option>
                                             </select>
-                                            <button class="btn btn-primary" type="submit">Update</button>
+                                            <button class="btn btn-primary" type="submit">Cập nhật</button>
                                         </div>
                                     </form>
                                 </td>

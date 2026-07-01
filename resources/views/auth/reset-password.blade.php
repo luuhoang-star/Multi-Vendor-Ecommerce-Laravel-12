@@ -1,4 +1,3 @@
-
 @extends('frontend.layouts.app')
 
 @section('contents')

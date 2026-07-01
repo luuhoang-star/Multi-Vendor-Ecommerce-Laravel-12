@@ -58,7 +58,7 @@
                             <label class="form-label">
                                 Password
                                 <span class="form-label-description">
-                                    <a href="{{ route('admin.password.request') }}">I forgot password</a>
+                                    <a href="{{ route('admin.password.request') }}">Tôi quên mật khẩu</a>
                                 </span>
                             </label>
                             <div class="input-group input-group-flat">
@@ -81,11 +81,11 @@
                         <div class="mb-2">
                             <label class="form-check">
                                 <input type="checkbox" class="form-check-input" name="remember" />
-                                <span class="form-check-label">Remember me on this device</span>
+                                <span class="form-check-label">Ghi nhớ tôi trên thiết bị này</span>
                             </label>
                         </div>
                         <div class="form-footer">
-                            <button type="submit" class="btn btn-primary w-100">Sign in</button>
+                            <button type="submit" class="btn btn-primary w-100">Đăng nhập</button>
                         </div>
                     </form>
                 </div>

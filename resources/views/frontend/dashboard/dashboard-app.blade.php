@@ -12,29 +12,28 @@
                                 <ul class="nav flex-column" role="tablist">
                                     <li class="nav-item">
                                         <a class="nav-link active" href=""><i
-                                                class="fi-rs-settings-sliders mr-10"></i>Dashboard</a>
+                                                class="fi-rs-settings-sliders mr-10"></i>Tổng quan</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#orders"><i
-                                                class="fi-rs-shopping-bag mr-10"></i>Orders</a>
+                                                class="fi-rs-shopping-bag mr-10"></i>Đơn hàng</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#track-orders"
-                                            class="fi-rs-shopping-cart-check mr-10"></i>Track Your Order</a>
+                                            class="fi-rs-shopping-cart-check mr-10"></i>Theo dõi đơn</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#address"><i class="fi-rs-marker mr-10"></i>My Address</a>
+                                        <a class="nav-link" href="#address"><i class="fi-rs-marker mr-10"></i>Địa chỉ</a>
                                     </li>
                                     <li class="nav-item"> <!-- link để route xử lý profile-->
-                                        <a class="nav-link" href="{{ route('profile') }}"><i class="fi-rs-user mr-10"></i>Account
-                                            details</a>
+                                        <a class="nav-link" href="{{ route('profile') }}"><i class="fi-rs-user mr-10"></i>Thông tin tài khoản</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#wishlist-tab"><i class="fi-rs-heart mr-10"></i>
-                                            Wishlist</a>
+                                             Yêu thích</a>
                                     </li>
                                     <li class="nav-item"> <!--even.preventDefault giúp ngăn chuyển hướng thẻ a,click logout,khiến route logout xử lý -->
-                                        <a class="nav-link" onclick="event.preventDefault(); $('.form-logout').submit()" href="login.html"><i class="fi-rs-sign-out mr-10"></i>Logout</a>
+                                        <a class="nav-link" onclick="event.preventDefault(); $('.form-logout').submit()" href="login.html"><i class="fi-rs-sign-out mr-10"></i>Đăng xuất</a>
                                     </li>
                                     <form class="form-logout" action="{{ route('logout') }}" method="POST">
                                         @csrf

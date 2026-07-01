@@ -1,6 +1,3 @@
-
-
-
 @extends('frontend.layouts.app')
 
 @section('contents')
@@ -34,7 +31,7 @@
                                         </div>
                                         <div class="form-group">
                                             <input required="" type="password" name="password" placeholder="Password" />
-                                             <x-input-error :messages="$errors->get('password')" class='mt-2' />
+                                            <x-input-error :messages="$errors->get('password')" class='mt-2' />
                                         </div>
                                         <div class="form-group">
                                             <input required="" type="password" name="password_confirmation"
@@ -48,14 +45,14 @@
                                                     name="user_type" id="exampleRadios3" checked="" value="user" />
                                                 <label class="form-check-label" for="exampleRadios3"
                                                     data-bs-toggle="collapse" data-target="#bankTranfer"
-                                                    aria-controls="bankTranfer">I am a customer</label>
+                                                    aria-controls="bankTranfer">Tôi là khách hàng</label>
                                             </div>
                                             <div class="custome-radio">
                                                 <input class="form-check-input" required="" type="radio"
                                                     name="user_type" id="exampleRadios4" checked="" value="vendor" />
                                                 <label class="form-check-label" for="exampleRadios4"
                                                     data-bs-toggle="collapse" data-target="#checkPayment"
-                                                    aria-controls="checkPayment">I am a vendor</label>
+                                                    aria-controls="checkPayment">Tôi là người bán</label>
                                             </div>
                                         </div>
                                         <div class="form-group mb-0">

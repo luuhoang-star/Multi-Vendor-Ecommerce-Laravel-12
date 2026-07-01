@@ -1,7 +1,7 @@
 <div class="tab-pane fade" id="address" role="tabpanel" aria-labelledby="address-tab">
     <div class="wsus__shipping_address mb_40">
-        <h4>Billing Address
-            <a href="dashboard_address_edit.html">add new address</a>
+        <h4>Địa chỉ thanh toán
+            <a href="dashboard_address_edit.html">Thêm địa chỉ mới</a>
         </h4>
 
         <div class="row">
@@ -10,9 +10,7 @@
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
                             value="option1">
-                        <label class="form-check-label" for="inlineRadio1">98 Winn
-                            St, Woburn, MA
-                            01801,USA</label>
+                        <label class="form-check-label" for="inlineRadio1">98 Winn St, Woburn, MA 01801, Hoa Kỳ</label>
                     </div>
                     <div class="wsus__shipping_mail_address">
                         <a href="mailto:example@gmail.com">example@gmail.com</a>
@@ -39,7 +37,7 @@
                             value="option2">
                         <label class="form-check-label" for="inlineRadio2">98 Winn
                             St, Woburn, MA 01801,
-                            USA</label>
+                            Hoa Kỳ</label>
                     </div>
                     <div class="wsus__shipping_mail_address">
                         <a href="mailto:example@gmail.com">example@gmail.com</a>
@@ -66,7 +64,7 @@
                             value="option3">
                         <label class="form-check-label" for="inlineRadio3">98 Winn
                             St, Woburn, MA 01801,
-                            USA</label>
+                            Hoa Kỳ</label>
                     </div>
                     <div class="wsus__shipping_mail_address">
                         <a href="mailto:example@gmail.com">example@gmail.com</a>
@@ -90,7 +88,7 @@
 
         <div class="panel-collapse collapse login_form" id="loginform">
             <div class="panel-body">
-                <h4>Add New Address</h4>
+                <h4>Thêm địa chỉ mới</h4>
                 <form>
                     <div class="row mt-20">
                         <div class="col-md-12">
@@ -115,7 +113,7 @@
                         </div>
                     </div>
                     <div class="form-group mb-0">
-                        <button class="btn btn-md" name="login">Save</button>
+                        <button class="btn btn-md" name="login">Lưu</button>
                     </div>
                 </form>
             </div>

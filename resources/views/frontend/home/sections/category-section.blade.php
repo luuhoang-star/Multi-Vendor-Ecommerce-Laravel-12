@@ -2,7 +2,7 @@
             <div class="container wow animate__animated animate__fadeIn">
                 <div class="section-title">
                     <div class="title">
-                        <h3>Top Categories</h3>
+                        <h3>Danh mục nổi bật</h3>
                     </div>
                     <div class="slider-arrow slider-arrow-2 flex-right carausel-10-columns-arrow"
                         id="carausel-10-columns-arrows"></div>
@@ -14,7 +14,7 @@
                                 <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-13.png"
                                         alt="" /></a>
                             </figure>
-                            <h6><a href="shop-grid-right.html">Sunglasses</a></h6>
+                            <h6><a href="shop-grid-right.html">Kính râm</a></h6>
                             <span>26 items</span>
                         </div>
                         <div class="card-2 bg-10 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
@@ -22,7 +22,7 @@
                                 <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-12.png"
                                         alt="" /></a>
                             </figure>
-                            <h6><a href="shop-grid-right.html">Whatches</a></h6>
+                            <h6><a href="shop-grid-right.html">Đồng hồ</a></h6>
                             <span>28 items</span>
                         </div>
                         <div class="card-2 bg-11 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
@@ -38,7 +38,7 @@
                                 <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-9.png"
                                         alt="" /></a>
                             </figure>
-                            <h6><a href="shop-grid-right.html">Shoes</a></h6>
+                            <h6><a href="shop-grid-right.html">Giày</a></h6>
                             <span>54 items</span>
                         </div>
                         <div class="card-2 bg-13 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
@@ -46,7 +46,7 @@
                                 <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-3.png"
                                         alt="" /></a>
                             </figure>
-                            <h6><a href="shop-grid-right.html">Cosmetics</a></h6>
+                            <h6><a href="shop-grid-right.html">Mỹ phẩm</a></h6>
                             <span>56 items</span>
                         </div>
                         <div class="card-2 bg-14 wow animate__animated animate__fadeInUp" data-wow-delay=".6s">
@@ -54,7 +54,7 @@
                                 <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-1.png"
                                         alt="" /></a>
                             </figure>
-                            <h6><a href="shop-grid-right.html">Winter Wear</a></h6>
+                            <h6><a href="shop-grid-right.html">Quần áo mùa đông</a></h6>
                             <span>72 items</span>
                         </div>
                         <div class="card-2 bg-15 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
@@ -70,7 +70,7 @@
                                 <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-4.png"
                                         alt="" /></a>
                             </figure>
-                            <h6><a href="shop-grid-right.html">Headphones</a></h6>
+                            <h6><a href="shop-grid-right.html">Tai nghe</a></h6>
                             <span>123 items</span>
                         </div>
                         <div class="card-2 bg-10 wow animate__animated animate__fadeInUp" data-wow-delay=".9s">
@@ -78,7 +78,7 @@
                                 <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-5.png"
                                         alt="" /></a>
                             </figure>
-                            <h6><a href="shop-grid-right.html">Jewelry</a></h6>
+                            <h6><a href="shop-grid-right.html">Trang sức</a></h6>
                             <span>34 items</span>
                         </div>
                         <div class="card-2 bg-12 wow animate__animated animate__fadeInUp" data-wow-delay="1s">
@@ -94,7 +94,7 @@
                                 <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-12.png"
                                         alt="" /></a>
                             </figure>
-                            <h6><a href="shop-grid-right.html">Whatches</a></h6>
+                            <h6><a href="shop-grid-right.html">Đồng hồ</a></h6>
                             <span>28 items</span>
                         </div>
                     </div>

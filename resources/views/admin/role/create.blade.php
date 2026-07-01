@@ -4,9 +4,9 @@
     <div class="container-xl">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Create Role</h3>
+                <h3 class="card-title">Tạo vai trò</h3>
                 <div class="card-actions">
-                    <a href="{{ route('admin.role.index') }}" class="btn btn-primary">Back</a>
+                    <a href="{{ route('admin.role.index') }}" class="btn btn-primary">Trở về</a>
                 </div>
             </div>
             <div class="card-body">
@@ -15,7 +15,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="mb-3">
-                                <label class="form-label required">Role Name</label>
+                                <label class="form-label required">Tên quyền (vai trò)</label>
                                 <input type="text" class="form-control" name="role" value="">
                                 <x-input-error :messages="$errors->get('role')" class="mt-2" />
                             </div>
@@ -38,7 +38,7 @@
                     </div>
                 </form>
                 <div class="card-footer">
-                    <button class="btn btn-primary mt-3" onclick="$('form').submit()">Create</button>
+                    <button class="btn btn-primary mt-3" onclick="$('form').submit()">Tạo vai trò</button>
                 </div>
             </div>
         </div>

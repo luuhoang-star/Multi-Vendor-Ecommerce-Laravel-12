@@ -1,7 +1,7 @@
  <div class="tab-pane fade" id="wishlist-tab" role="tabpanel" aria-labelledby="wishlist-detail-tab">
      <div class="card">
          <div class="card-header p-0">
-             <h4>Wishlist</h4>
+             <h4>Danh sách yêu thích ❤️</h4>
          </div>
          <div class="card-body p-0 mt-20">
              <div class="table-responsive shopping-summery">
@@ -13,11 +13,11 @@
                                      value="">
                                  <label class="form-check-label" for="exampleCheckbox11"></label>
                              </th>
-                             <th scope="col" colspan="2">Product</th>
-                             <th scope="col">Price</th>
-                             <th scope="col">Stock Status</th>
-                             <th scope="col">Action</th>
-                             <th scope="col" class="end">Remove</th>
+                             <th scope="col" colspan="2">Sản phẩm</th>
+                             <th scope="col">Giá</th>
+                             <th scope="col">Tình trạng tồn kho</th>
+                             <th scope="col">Hành động</th>
+                             <th scope="col" class="end">Xóa</th>
                          </tr>
                      </thead>
                      <tbody>
@@ -31,8 +31,7 @@
                                      alt="#">
                              </td>
                              <td class="product-des product-name">
-                                 <h6><a class="product-name mb-10" href="shop-product-right.html">Field Roast
-                                         Chao Cheese Creamy Original</a></h6>
+                                 <h6><a class="product-name mb-10" href="shop-product-right.html">Phô mai Field Roast Chao vị kem nguyên bản</a></h6>
                                  <div class="product-rate-cover">
                                      <div class="product-rate d-inline-block">
                                          <div class="product-rating" style="width: 90%"></div>
@@ -45,11 +44,11 @@
                                  <h3 class="text-brand">$2.51</h3>
                              </td>
                              <td class="text-center detail-info" data-title="Stock">
-                                 <span class="stock-status in-stock mb-0"> In Stock
+                                 <span class="stock-status in-stock mb-0"> Còn hàng
                                  </span>
                              </td>
                              <td class="text-right" data-title="Cart">
-                                 <button class="btn btn-sm">Add to cart</button>
+                                 <button class="btn btn-sm">Thêm vào giỏ hàng</button>
                              </td>
                              <td class="action text-center" data-title="Remove">
                                  <a href="#" class="text-body"><i class="fi-rs-trash"></i></a>
@@ -65,8 +64,7 @@
                                      alt="#">
                              </td>
                              <td class="product-des product-name">
-                                 <h6><a class="product-name mb-10" href="shop-product-right.html">Blue Diamond
-                                         Almonds Lightly Salted</a></h6>
+                                 <h6><a class="product-name mb-10" href="shop-product-right.html">Hạnh nhân Blue Diamond ít muối</a></h6>
                                  <div class="product-rate-cover">
                                      <div class="product-rate d-inline-block">
                                          <div class="product-rating" style="width: 90%"></div>
@@ -79,11 +77,11 @@
                                  <h3 class="text-brand">$3.2</h3>
                              </td>
                              <td class="text-center detail-info" data-title="Stock">
-                                 <span class="stock-status in-stock mb-0"> In Stock
+                                 <span class="stock-status in-stock mb-0"> Còn hàng
                                  </span>
                              </td>
                              <td class="text-right" data-title="Cart">
-                                 <button class="btn btn-sm">Add to cart</button>
+                                 <button class="btn btn-sm">Thêm vào giỏ hàng</button>
                              </td>
                              <td class="action text-center" data-title="Remove">
                                  <a href="#" class="text-body"><i class="fi-rs-trash"></i></a>
@@ -99,8 +97,7 @@
                                      alt="#">
                              </td>
                              <td class="product-des product-name">
-                                 <h6><a class="product-name mb-10" href="shop-product-right.html">Fresh Organic
-                                         Mustard Leaves Bell Pepper</a></h6>
+                                 <h6><a class="product-name mb-10" href="shop-product-right.html">Rau cải mù tạt hữu cơ tươi và ớt chuông</a></h6>
                                  <div class="product-rate-cover">
                                      <div class="product-rate d-inline-block">
                                          <div class="product-rating" style="width: 90%"></div>
@@ -113,11 +110,11 @@
                                  <h3 class="text-brand">$2.43</h3>
                              </td>
                              <td class="text-center detail-info" data-title="Stock">
-                                 <span class="stock-status in-stock mb-0"> In Stock
+                                 <span class="stock-status in-stock mb-0"> Còn hàng
                                  </span>
                              </td>
                              <td class="text-right" data-title="Cart">
-                                 <button class="btn btn-sm">Add to cart</button>
+                                 <button class="btn btn-sm">Thêm vào giỏ hàng</button>
                              </td>
                              <td class="action text-center" data-title="Remove">
                                  <a href="#" class="text-body"><i class="fi-rs-trash"></i></a>
@@ -147,12 +144,11 @@
                                  <h3 class="text-brand">$3.21</h3>
                              </td>
                              <td class="text-center detail-info" data-title="Stock">
-                                 <span class="stock-status out-stock mb-0"> Out Stock
+                                 <span class="stock-status out-stock mb-0"> Hết hàng
                                  </span>
                              </td>
                              <td class="text-right" data-title="Cart">
-                                 <button class="btn btn-sm btn-secondary">Contact
-                                     Us</button>
+                                 <button class="btn btn-sm btn-secondary">Liên hệ</button>
                              </td>
                              <td class="action text-center" data-title="Remove">
                                  <a href="#" class="text-body"><i class="fi-rs-trash"></i></a>
@@ -168,8 +164,7 @@
                                      alt="#">
                              </td>
                              <td class="product-des product-name">
-                                 <h6><a class="product-name mb-10" href="shop-product-right.html">Foster Farms
-                                         Takeout Crispy Classic</a></h6>
+                                 <h6><a class="product-name mb-10" href="shop-product-right.html">Gà giòn Foster Farms Takeout Classic</a></h6>
                                  <div class="product-rate-cover">
                                      <div class="product-rate d-inline-block">
                                          <div class="product-rating" style="width: 90%"></div>
@@ -182,11 +177,11 @@
                                  <h3 class="text-brand">$3.17</h3>
                              </td>
                              <td class="text-center detail-info" data-title="Stock">
-                                 <span class="stock-status in-stock mb-0"> In Stock
+                                 <span class="stock-status in-stock mb-0"> Còn hàng
                                  </span>
                              </td>
                              <td class="text-right" data-title="Cart">
-                                 <button class="btn btn-sm">Add to cart</button>
+                                 <button class="btn btn-sm">Thêm vào giỏ hàng</button>
                              </td>
                              <td class="action text-center" data-title="Remove">
                                  <a href="#" class="text-body"><i class="fi-rs-trash"></i></a>
